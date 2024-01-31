@@ -1,0 +1,124 @@
+
+/* header */
+.header {
+    padding: 40px 0 30px;
+}
+
+.header .header-mobile {
+    display: block;
+    position: relative;
+}
+
+.header .header-desktop {
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .header .header-mobile {
+        display: none;
+    }
+    
+    .header .header-desktop {
+        display: block;
+    }
+}
+
+.header .logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header .logo img {
+    height: 40px !important;
+}
+
+@media(min-width: 992px) {
+    .header .logo img {
+        height: 50px !important;
+    }
+}
+
+.header .menu {
+    display: inline-block;
+}
+
+/* dropdown */
+.header .dropdown {
+    display: inline-block;
+}
+
+.header .dropdown-menu {
+    padding: 15px 0;
+    border: none;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.header .mobile-menu .menu-item,
+.header .dropdown-menu .dropdown-item {
+    font-family: BentonSansCond;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.header .header-desktop .dropdown-toggle:hover,
+.header .header-desktop .dropdown-toggle.show {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header .menu .menu-item,
+.header .dropdown-toggle {
+    font-family: BentonSansCond;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 20px;
+    color: #222222;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.header .menu .menu-item:not(.menu-item-disabled):hover,
+.header .menu .menu-item.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header .menu .menu-item-disabled {
+    opacity: 0.2;
+}
+
+.header .header-mobile .mobile-menu {
+    display: none;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header .header-mobile .mobile-menu.active {
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
+.header .header-mobile .mobile-menu .menu-item {
+    display: block;
+    padding: 10px 20px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.header .header-mobile .mobile-menu .menu-item-disabled {
+    opacity: 0.2;
+}
+
+.header .header-mobile .menu .menu-item {
+    cursor: pointer;
+}

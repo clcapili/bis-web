@@ -1,0 +1,140 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Colors
+$white:    #fff !default;
+$gray-100: #F7F7F7 !default;
+$gray-200: #F7F7F7 !default;
+$gray-300: #EEEEEE !default;
+$gray-400: #B2B2B2 !default;
+$gray-500: #B2B2B2 !default;
+$gray-600: #B2B2B2 !default;
+$gray-700: #666666 !default;
+$gray-800: #666666 !default;
+$gray-900: #333333 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #ed1c24 !default;
+$orange:  #f26522 !default;
+$yellow:  #FFF200 !default;
+$green:   #39B54A !default;
+$teal:    #20c997 !default;
+$cyan:    #00AEEF !default;
+$magenta: #EC008C !default;
+
+$primary:       $black !default;
+$secondary:     $gray-700 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $black !default;
+
+$body-color:                $black !default;
+
+// Font Family
+$font-family-sans-serif:      "BentonSansCond", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// Body Copy
+$line-height-base:           1.75 !default;
+
+// Headings
+$h1-font-size:               3.375rem !default;
+$h2-font-size:               2.25rem !default;
+$h3-font-size:               2rem !default;
+$h4-font-size:               1.5rem !default;
+$h5-font-size:               1.15rem !default;
+$h6-font-size:               1.125rem !default;
+
+// Display Headings
+$display-font-sizes: (
+  1: 6rem,
+  2: 5.5rem,
+  3: 4.5rem,
+  4: 3.5rem,
+  5: 0,
+  6: 0
+) !default;
+
+$headings-font-weight:        300 !default;
+
+$display-line-height: 1 !default;
+
+// Leads
+$lead-font-size:              1.375rem !default;
+$lead-font-weight:            500 !default;
+
+// Small
+$small-font-size:             80% !default;
+$small-font-weight:           400 !default;
+
+// Border Radius
+$border-radius:               15px !default;
+
+// scss-docs-start input-btn-variables
+$input-btn-padding-y:         14px !default;
+$input-btn-padding-x:         30px !default;
+$input-btn-font-size:         18px !default;
+$input-btn-line-height:       1.1 !default;
+// scss-docs-end input-btn-variables
+
+// scss-docs-start btn-variables
+$btn-box-shadow:             none !default;
+$btn-border-radius:           25px !default;
+$btn-active-box-shadow:       none !default;
+$btn-disabled-opacity:        .65 !default;
+// scss-docs-end btn-variables
+
+
+// Cards
+
+// scss-docs-start card-variables
+$card-spacer-y:                     20px !default;
+$card-spacer-x:                     20px !default;
+$card-title-spacer-y:               20px !default;
+$card-border-width:                 0px !default;
+$card-border-radius:                15px !default;
+$card-box-shadow:                   0 10px 20px 0 rgba(0, 0, 0, 0.2) !default;
+$card-cap-bg:                       rgba($black, .03) !default;
+// scss-docs-end card-variables
+
+// Spacers
+$spacers: (
+  0: 0,
+  1: 10px,
+  2: 20px,
+  3: 30px,
+  4: 40px,
+  5: 50px,
+  6: 60px,
+  7: 70px,
+  8: 80px,
+  9: 90px,
+  10: 100px,
+  11: 110px,
+  12: 120px,
+  13: 130px,
+  14: 140px,
+  15: 150px,
+  16: 160px,
+  17: 170px,
+  18: 180px,
+  19: 190px,
+  20: 200px,
+  21: 210px,
+  22: 220px,
+  23: 230px,
+  24: 240px,
+  25: 250px,
+  26: 260px,
+  27: 270px,
+  28: 280px,
+  29: 290px,
+);
