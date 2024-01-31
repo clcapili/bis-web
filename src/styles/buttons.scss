@@ -1,0 +1,43 @@
+/* buttons */
+@each $color, $value in $theme-colors {
+    .btn-#{$color}:hover {
+        background-color: tint-color($value, 20);
+        -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4); 
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4); 
+    }
+    
+    .btn-check:focus + .btn-#{$color}, 
+    .btn-#{$color}:focus {
+        -webkit-box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+        box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+    }
+    
+    .btn-#{$color}:not([disabled]):not(.disabled).active, 
+    .btn-#{$color}:not([disabled]):not(.disabled):active, 
+    .show > .btn-#{$color}.dropdown-toggle {
+        box-shadow: none;
+    }
+}
+
+
+@each $color, $value in $theme-colors {
+    .btn-outline-#{$color}:hover {
+        background-color: tint-color($value, 20);
+        -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4); 
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4); 
+    }
+    
+    .btn-check:focus + .btn-outline-#{$color}, 
+    .btn-outline-#{$color}:focus {
+        -webkit-box-shadow:0 0 2px 2px rgb(255, 255, 255);
+        box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+    }
+    
+    .btn-outline-#{$color}:not([disabled]):not(.disabled).active, 
+    .btn-outline-#{$color}:not([disabled]):not(.disabled):active, 
+    .show > .btn-outline-#{$color}.dropdown-toggle {
+        box-shadow: none;
+    }
+}
+
+

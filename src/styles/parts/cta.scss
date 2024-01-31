@@ -1,0 +1,53 @@
+/* CTA */
+.cta {
+    position: relative;
+    border: none;
+}
+
+.cta .mobile-image { 
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.cta .desktop-image {
+    height: 240px;
+    background-position: 15% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: padding-box;
+}
+
+.cta .cta-copy { 
+    display: flex; 
+    align-items: center;
+    padding: 20px 0; 
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .cta .cta-copy {
+        text-align: left;
+    }
+}
+
+@media(min-width: 992px) {
+    .cta .cta-copy {
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        bottom: 0; 
+        left: 0;
+        z-index: 10; 
+    }
+}
+
+.cta .image {
+    padding: 40px 0;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
